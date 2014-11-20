@@ -1,0 +1,7 @@
+C:\Users\Win_64\Desktop\MachLeo\WSExample\TestWS\bin\Debug\TestWS.exe.config
+C:\Users\Win_64\Desktop\MachLeo\WSExample\TestWS\bin\Debug\TestWS.exe
+C:\Users\Win_64\Desktop\MachLeo\WSExample\TestWS\bin\Debug\TestWS.pdb
+C:\Users\Win_64\Desktop\MachLeo\WSExample\TestWS\obj\Debug\TestWS.exe
+C:\Users\Win_64\Desktop\MachLeo\WSExample\TestWS\obj\Debug\TestWS.pdb
+C:\Users\Win_64\Desktop\MachLeo\WSExample\TestWS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Win_64\Desktop\MachLeo\WSExample\TestWS\obj\Debug\TestWS.csprojResolveAssemblyReference.cache
