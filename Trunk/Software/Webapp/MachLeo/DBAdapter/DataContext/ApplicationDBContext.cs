@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DBAdapter.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -10,7 +11,10 @@ namespace DBAdapter.DataContext
 {
 	public class ApplicationDBContext : DbContext
 	{
-		public ApplicationDBContext() : base("DefaultConnection") { }	
+        public ApplicationDBContext() : base("Webappdb") { }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Issue> Issues { get; set; }
+        public DbSet<User> Users { get; set; }
 
 		protected override void OnModelCreating(DbModelBuilder modelBuilder)
 		{
