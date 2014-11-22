@@ -2,13 +2,13 @@ package com.assignment.machleo.models;
 
 import java.util.Calendar;
 
-public class ModelArticle {
+public class ModelIssue {
 	private ModelUser author;
 	private String content;
 	private Calendar createdTime;
 	private Calendar modifiedTime;
 	
-	public ModelArticle(ModelUser author, String content, Calendar createdTime)
+	public ModelIssue(ModelUser author, String content, Calendar createdTime)
 	{
 		this.author = author;
 		this.content = content;
