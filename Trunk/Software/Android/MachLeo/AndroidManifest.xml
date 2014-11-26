@@ -14,13 +14,22 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.assignment.machleo.MainActivity"
+            android:name="com.assignment.machleo.LoginAct"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.assignment.machleo.PostAct" >
+        </activity>
+        <activity
+            android:name="com.assignment.machleo.SignUpAct" >
+        </activity>
+        <activity
+            android:name="com.assignment.machleo.ForgotPwdAct" >
         </activity>
     </application>
 

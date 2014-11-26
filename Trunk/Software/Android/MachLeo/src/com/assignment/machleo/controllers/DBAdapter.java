@@ -40,12 +40,12 @@ public class DBAdapter {
 	public boolean deleteIssue()
 	{
 		//TODO: delete this.issue from the database
-		return false;
+		return true;
 	}
 	
 	public boolean saveIssue()
 	{
 		//TODO: save this.issue to the database
-		return false;
+		return true;
 	}
 }
