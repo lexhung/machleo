@@ -47,14 +47,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogic\UserHelper.cs" />
     <Compile Include="DataContext\ApplicationDBContext.cs" />
     <Compile Include="Helper\BaseRepository.cs" />
     <Compile Include="Helper\IRepository.cs" />
     <Compile Include="Helper\IUnitOfWork.cs" />
     <Compile Include="Helper\UnitOfWork.cs" />
-    <Compile Include="Migrations\201411210313172_FirstMigration.cs" />
-    <Compile Include="Migrations\201411210313172_FirstMigration.Designer.cs">
-      <DependentUpon>201411210313172_FirstMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201411260702542_init.cs" />
+    <Compile Include="Migrations\201411260702542_init.Designer.cs">
+      <DependentUpon>201411260702542_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
@@ -67,8 +68,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201411210313172_FirstMigration.resx">
-      <DependentUpon>201411210313172_FirstMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201411260702542_init.resx">
+      <DependentUpon>201411260702542_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

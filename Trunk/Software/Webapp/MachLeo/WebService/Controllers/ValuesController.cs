@@ -4,11 +4,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Providers.Entities;
 
 namespace WebService.Controllers
 {
 	public class ValuesController : ApiController
 	{
+        
 		// GET api/values
 		public IEnumerable<string> Get()
 		{
@@ -16,9 +18,12 @@ namespace WebService.Controllers
 		}
 
 		// GET api/values/5
-		public string Get(int id)
+        [HttpGet]
+        [ActionName("GetUser")]
+		public String Get(int i)
 		{
-			return "value";
+
+            return "hieu";
 		}
 
 		// POST api/values
